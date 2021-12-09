@@ -1,0 +1,8 @@
+.header__link-text {
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0 18px 0 0;
+}
+.header__link-text:last-of-type {
+ margin: 0;
+}
