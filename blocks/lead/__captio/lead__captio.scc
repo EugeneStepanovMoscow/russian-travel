@@ -1,0 +1,9 @@
+.lead__captio {
+  margin: 8px auto 0 0;
+  max-width: 158px;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: start;
+  text-transform: uppercase;
+}

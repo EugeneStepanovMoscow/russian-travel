@@ -1,0 +1,7 @@
+.place__column {
+  margin-bottom: 48px;
+  display: flex;
+}
+.place__column:nth-child(2n) {
+  margin-bottom: 0;
+}
