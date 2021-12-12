@@ -6,3 +6,13 @@
 .header__link-text:last-of-type {
  margin: 0;
 }
+@media screen and (max-width: 768px) {
+  .header__link-text {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header__link-text {
+    font-size: 24px;
+  }
+}

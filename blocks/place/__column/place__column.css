@@ -5,3 +5,10 @@
 .place__column:nth-child(2n) {
   margin-bottom: 0;
 }
+@media screen and (max-width: 768px) {
+  .place__column {
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+  }
+}
