@@ -1,12 +1,21 @@
 .place {
-  margin: 80px auto 0 auto;
-  max-width: 984px;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width: 768px) {
+.place:first-of-type {
+  margin: 0;
+}
+@media screen and (max-width: 767px) {
   .place {
-    margin: 64px auto 0 auto;
-    max-width: 320px;
+    margin-top: 50px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .place {
+    margin-top: 73px;
+  }
+}
+
+
