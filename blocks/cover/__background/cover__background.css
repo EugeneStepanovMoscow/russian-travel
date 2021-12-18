@@ -1,7 +1,7 @@
 .cover__background {
   margin: 0 48px 0 48px;
   width: 1184;
-  height: 740px;
+  min-height: 740px;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   display: flex;
@@ -33,7 +33,7 @@
   .cover__background {
     margin: 0;
     max-width: 320px;
-    height: 200px;
+    min-height: 200px;
   }
 }
 
@@ -41,7 +41,7 @@
   .cover__background {
     margin: 0;
     max-width: 768px;
-    height: 480px;
+    min-height: 480px;
   }
 }
 
@@ -49,7 +49,7 @@
   .cover__background {
     margin: 0;
     max-width: 1024px;
-    height: 640px;
+    min-height: 640px;
   }
 }
 

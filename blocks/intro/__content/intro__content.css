@@ -1,19 +1,16 @@
 .intro__content {
   width: 690px;
-  height: 429px;
   margin: 0 auto 0 148px;
 }
 @media screen and (max-width: 767px) {
   .intro__content {
     width: 288px;
-    height: 754px;
     margin: 0 auto 0 16px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px){
   .intro__content {
     width: 720px;
-    height: 429px;
     margin: 0 auto 0 24px;
   }
 }
