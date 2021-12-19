@@ -6,14 +6,14 @@
 .place:first-of-type {
   margin: 0;
 }
-@media screen and (max-width: 767px) {
-  .place {
-    margin-top: 50px;
-  }
-}
 @media screen and (min-width: 768px) and (max-width: 1023px){
   .place {
     margin-top: 73px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .place {
+    margin-top: 50px;
   }
 }
 

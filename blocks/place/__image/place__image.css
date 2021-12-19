@@ -3,11 +3,11 @@
   height: 460px;
   margin-right: 40px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place__image {
-    width: 320px;
-    height: 320px;
-    margin-right: 0;
+    width: 440px;
+    height: 440px;
+    margin-right: 32px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px){
@@ -17,10 +17,10 @@
     margin-right: 28px;
   }
 }
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 767px) {
   .place__image {
-    width: 440px;
-    height: 440px;
-    margin-right: 32px;
+    width: 320px;
+    height: 320px;
+    margin-right: 0;
   }
 }

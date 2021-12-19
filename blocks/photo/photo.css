@@ -1,15 +1,13 @@
 .photo {
   padding-top: 92px;
 }
-@media screen and (max-width: 767px) {
-  .photo {
-    padding-top: 64px;
-  }
-}
-
 @media screen and (min-width: 768px) and (max-width: 1023px){
   .photo {
     padding-top: 88px;
   }
 }
-
+@media screen and (max-width: 767px) {
+  .photo {
+    padding-top: 64px;
+  }
+}

@@ -4,4 +4,18 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
+  transition: .3s;
+  opacity: 1;
+}
+/*Добавлен эффект прозрачности при наведении курсора*/
+.footer__link-text:hover {
+  transition: .5s;
+  opacity: .8;
+}
+/*Добавлен медиазапрос для малых разрешений*/
+@media screen and (max-width: 767px) {
+  .footer__link-text {
+    font-size: 24px;
+    line-height: 24px;
+  }
 }

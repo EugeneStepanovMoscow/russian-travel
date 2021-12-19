@@ -1,21 +1,21 @@
 .intro__content {
-  width: 690px;
-  margin: 0 auto 0 148px;
+  width: 984px;
+  margin: 0 auto;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .intro__content {
-    width: 288px;
-    margin: 0 auto 0 16px;
+    width: 928px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px){
   .intro__content {
-    width: 720px;
-    margin: 0 auto 0 24px;
+    width: 768px;
+    padding-left: 24px;
   }
 }
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 767px) {
   .intro__content {
-    margin: 0 auto 0 48px;
+    width: 320px;
+    padding-left: 24px;
   }
 }

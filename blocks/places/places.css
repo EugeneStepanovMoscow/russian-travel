@@ -1,28 +1,25 @@
 .places {
   padding-top: 92px;
   width: 984px;
-  margin: 0 148px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places {
-    padding-top: 64px;
-    width: 320px;
-    margin: 0;
+    width: 928px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px){
   .places {
     padding-top: 88px;
     width: 720px;
-    margin: 0 24px;
   }
 }
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 767px) {
   .places {
-    width: 928px;
-    margin: 0 48px;
+    padding-top: 64px;
+    width: 320px;
   }
 }

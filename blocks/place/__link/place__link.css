@@ -4,4 +4,11 @@
   line-height: 22px;
   text-decoration: underline;
   color:#FFF;
+  transition: .3s;
+  opacity: 1;
+}
+/*Добавлен эффект прозрачности при наведении курсора*/
+.place__link:hover {
+  transition: .5s;
+  opacity: .8;
 }
