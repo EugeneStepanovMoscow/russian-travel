@@ -17,6 +17,6 @@
 @media screen and (max-width: 767px) {
   .intro__content {
     width: 320px;
-    padding-left: 24px;
+    padding-left: 16px;
   }
 }
